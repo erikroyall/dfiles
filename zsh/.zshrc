@@ -12,6 +12,9 @@ ZSH_THEME="afowler"
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 
+alias c="cat \$(find . | fzf)"
+alias v="vim \$(find . | fzf)"
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
